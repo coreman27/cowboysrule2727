@@ -1,0 +1,10 @@
+{
+    "window.commandCenter": true,
+    "http.proxySupport": "off",
+    "redhat.telemetry.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.autoDetectColorScheme": true,
+    "geminicodeassist.project": "cloudshell-gca",
+    "terminal.integrated.defaultProfile.linux": "Google Cloud Shell",
+    "window.menuBarVisibility": "classic"
+}

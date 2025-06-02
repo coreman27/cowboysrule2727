@@ -1,0 +1,433 @@
+2025-06-01 23:53:35.021 [info] [main] Log level: Info
+2025-06-01 23:53:35.021 [info] [main] Validating found git in: "git"
+2025-06-01 23:53:35.021 [info] [main] Using git "2.43.0" from "git"
+2025-06-01 23:53:35.021 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-01 23:53:35.021 [info] > git rev-parse --show-toplevel [26ms]
+2025-06-01 23:53:35.021 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-01 23:53:35.028 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-01 23:53:35.028 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-01 23:53:35.034 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-01 23:53:35.034 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-01 23:53:35.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-01 23:53:35.041 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-01 23:53:35.048 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-01 23:53:35.048 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-01 23:53:35.098 [info] > git rev-parse --show-toplevel [46ms]
+2025-06-01 23:53:35.098 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-01 23:53:35.107 [info] > git rev-parse --show-toplevel [3ms]
+2025-06-01 23:53:35.107 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-01 23:53:35.121 [info] > git rev-parse --show-toplevel [8ms]
+2025-06-01 23:53:35.121 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-01 23:53:35.122 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-01 23:53:37.825 [info] > git rev-parse --show-toplevel [13ms]
+2025-06-01 23:53:37.825 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-01 23:54:00.028 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-01 23:54:00.044 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-06-01 23:54:00.057 [info] [Model][openRepository] Opened repository: /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app
+2025-06-01 23:54:00.074 [info] > git config --get commit.template [6ms]
+2025-06-01 23:54:00.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-06-01 23:54:00.097 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-01 23:54:00.102 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-06-01 23:54:00.131 [info] > git status -z -uall [19ms]
+2025-06-01 23:54:00.132 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-06-01 23:54:00.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-06-01 23:54:00.179 [info] > git config --get commit.template [15ms]
+2025-06-01 23:54:00.180 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2025-06-01 23:54:00.180 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-01 23:54:00.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [101ms]
+2025-06-01 23:54:00.312 [info] > git reflog main --grep-reflog=branch: Created from *. [121ms]
+2025-06-01 23:54:00.330 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-01 23:54:00.332 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [11ms]
+2025-06-01 23:54:00.346 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2025-06-01 23:54:00.366 [info] > git status -z -uall [12ms]
+2025-06-01 23:54:00.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [27ms]
+2025-06-01 23:54:00.378 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-06-01 23:54:00.395 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-01 23:54:00.405 [info] > git config --local branch.main.vscode-merge-base origin/main [29ms]
+2025-06-01 23:54:00.419 [info] > git config --local branch.main.vscode-merge-base [13ms]
+2025-06-01 23:54:00.432 [info] > git config --get commit.template [15ms]
+2025-06-01 23:54:00.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-06-01 23:54:00.459 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2025-06-01 23:54:00.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2025-06-01 23:54:00.499 [info] > git show --textconv :main.tf [15ms]
+2025-06-01 23:54:00.499 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/main.tf [5ms]
+2025-06-01 23:54:00.509 [info] > git diff --name-status -z --diff-filter=ADMR 68edfe6c7d476431997df966b6b16d3063fd9105...refs/remotes/origin/main [38ms]
+2025-06-01 23:54:00.519 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-01 23:54:00.520 [info] > git cat-file -s 46e46de7014fdbbd9fbbcbabf4c97ddb781acb3c [12ms]
+2025-06-01 23:54:00.521 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-06-01 23:54:00.542 [info] > git status -z -uall [12ms]
+2025-06-01 23:54:00.544 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-01 23:54:00.641 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-01 23:54:01.643 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/main.tf [2ms]
+2025-06-01 23:54:01.654 [info] > git cat-file -s 46e46de7014fdbbd9fbbcbabf4c97ddb781acb3c [2ms]
+2025-06-01 23:54:01.697 [info] > git show --textconv :main.tf [2ms]
+2025-06-01 23:54:04.537 [info] > git show --textconv :outputs.tf [11ms]
+2025-06-01 23:54:04.538 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/outputs.tf [4ms]
+2025-06-01 23:54:04.548 [info] > git cat-file -s 4f349ed45ef97ef4177fdd249114f68df33e84bc [2ms]
+2025-06-01 23:54:07.439 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-01 23:54:08.784 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-01 23:59:45.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-06-01 23:59:45.246 [info] > git config --get commit.template [13ms]
+2025-06-01 23:59:45.254 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-01 23:59:45.256 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-01 23:59:45.275 [info] > git status -z -uall [12ms]
+2025-06-01 23:59:45.278 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-01 23:59:50.301 [info] > git config --get commit.template [10ms]
+2025-06-01 23:59:50.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-01 23:59:50.311 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-01 23:59:50.312 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-01 23:59:50.329 [info] > git status -z -uall [10ms]
+2025-06-01 23:59:50.332 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-01 23:59:55.464 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-01 23:59:55.852 [info] > git show --textconv :CHANGELOG.md [30ms]
+2025-06-01 23:59:55.863 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/CHANGELOG.md [21ms]
+2025-06-01 23:59:55.878 [info] > git cat-file -s 2f4dcde865632ed2ffd29b5abdd6fc5b0e7a2866 [5ms]
+2025-06-01 23:59:57.294 [info] > git show --textconv :versions.tf [18ms]
+2025-06-01 23:59:57.295 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/versions.tf [10ms]
+2025-06-01 23:59:57.305 [info] > git cat-file -s 4d88eeee6ce244f13153fa7a1ae0371941b096cd [2ms]
+2025-06-02 00:00:20.246 [info] > git show --textconv :terraform.tfvars [16ms]
+2025-06-02 00:00:20.248 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/terraform.tfvars [7ms]
+2025-06-02 00:00:20.423 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-02 00:00:25.788 [info] > git config --get commit.template [1ms]
+2025-06-02 00:00:25.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-06-02 00:00:25.809 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-02 00:00:25.810 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-06-02 00:00:25.829 [info] > git status -z -uall [10ms]
+2025-06-02 00:00:25.833 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-06-02 00:00:30.849 [info] > git config --get commit.template [3ms]
+2025-06-02 00:00:30.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-02 00:00:30.868 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-02 00:00:30.871 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-02 00:00:30.890 [info] > git status -z -uall [12ms]
+2025-06-02 00:00:30.893 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-02 00:00:34.762 [info] > git show --textconv :variables.tf [10ms]
+2025-06-02 00:00:34.764 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/variables.tf [3ms]
+2025-06-02 00:00:34.773 [info] > git cat-file -s 49b860f7f427af7dc783c6067254899881f945f9 [2ms]
+2025-06-02 00:02:54.355 [info] > git show --textconv :versions.tf [11ms]
+2025-06-02 00:02:54.357 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/versions.tf [4ms]
+2025-06-02 00:02:54.366 [info] > git cat-file -s 4d88eeee6ce244f13153fa7a1ae0371941b096cd [2ms]
+2025-06-02 00:02:54.940 [info] > git show --textconv :variables.tf [10ms]
+2025-06-02 00:02:54.942 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/variables.tf [4ms]
+2025-06-02 00:02:54.952 [info] > git cat-file -s 49b860f7f427af7dc783c6067254899881f945f9 [3ms]
+2025-06-02 00:03:45.759 [info] > git rev-parse --show-toplevel [10ms]
+2025-06-02 00:03:45.759 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-02 00:03:51.569 [info] > git show --textconv :variables.tf [9ms]
+2025-06-02 00:03:51.571 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/variables.tf [2ms]
+2025-06-02 00:03:51.580 [info] > git cat-file -s 49b860f7f427af7dc783c6067254899881f945f9 [3ms]
+2025-06-02 00:04:41.042 [info] > git show --textconv :main.tf [14ms]
+2025-06-02 00:04:41.042 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/main.tf [7ms]
+2025-06-02 00:04:41.059 [info] > git cat-file -s 46e46de7014fdbbd9fbbcbabf4c97ddb781acb3c [5ms]
+2025-06-02 00:07:07.131 [info] > git config --get commit.template [10ms]
+2025-06-02 00:07:07.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-06-02 00:07:07.139 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-02 00:07:07.141 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-02 00:07:07.162 [info] > git status -z -uall [11ms]
+2025-06-02 00:07:07.163 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-02 00:07:12.192 [info] > git config --get commit.template [9ms]
+2025-06-02 00:07:12.194 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-02 00:07:12.202 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-02 00:07:12.204 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-02 00:07:12.222 [info] > git status -z -uall [11ms]
+2025-06-02 00:07:12.225 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-06-02 00:10:58.674 [info] > git rev-parse --show-toplevel [18ms]
+2025-06-02 00:10:58.677 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-02 00:11:53.558 [info] > git show --textconv :main.tf [9ms]
+2025-06-02 00:11:53.561 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/main.tf [4ms]
+2025-06-02 00:11:53.571 [info] > git cat-file -s 46e46de7014fdbbd9fbbcbabf4c97ddb781acb3c [3ms]
+2025-06-02 00:14:41.909 [info] > git show --textconv :assets/three_tier_web_app_v4.svg [10ms]
+2025-06-02 00:14:41.911 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/assets/three_tier_web_app_v4.svg [4ms]
+2025-06-02 00:14:41.920 [info] > git cat-file -s fd0cd7aad6562e619fc4908be7328c573704fa26 [2ms]
+2025-06-02 00:15:11.381 [info] > git show --textconv :main.tf [9ms]
+2025-06-02 00:15:11.385 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/main.tf [5ms]
+2025-06-02 00:15:11.394 [info] > git cat-file -s 46e46de7014fdbbd9fbbcbabf4c97ddb781acb3c [2ms]
+2025-06-02 00:15:51.038 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-02 00:15:51.056 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2025-06-02 00:15:51.085 [info] [Model][openRepository] Opened repository: /home/cowboysrule2727
+2025-06-02 00:15:51.112 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:15:51.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-06-02 00:15:51.118 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:15:51.119 [info] > git config --get commit.template [18ms]
+2025-06-02 00:15:51.157 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-06-02 00:15:51.319 [info] > git status -z -uall [190ms]
+2025-06-02 00:15:52.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [673ms]
+2025-06-02 00:15:52.159 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:15:52.159 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-02 00:15:52.210 [info] > git config --get commit.template [59ms]
+2025-06-02 00:15:52.212 [info] > git check-ignore -v -z --stdin [17ms]
+2025-06-02 00:15:52.223 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:15:52.225 [info] > git check-ignore -v -z --stdin [16ms]
+2025-06-02 00:15:52.227 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-02 00:15:52.228 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:15:52.270 [info] > git status -z -uall [31ms]
+2025-06-02 00:15:52.273 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-06-02 00:15:54.266 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:15:54.267 [info] > git config --get commit.template [9ms]
+2025-06-02 00:15:54.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:15:54.268 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:15:54.290 [info] > git status -z -uall [15ms]
+2025-06-02 00:15:54.290 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-02 00:15:59.334 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:15:59.335 [info] > git config --get commit.template [8ms]
+2025-06-02 00:15:59.336 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:15:59.336 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:15:59.357 [info] > git status -z -uall [15ms]
+2025-06-02 00:15:59.358 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-02 00:16:04.396 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:04.397 [info] > git config --get commit.template [9ms]
+2025-06-02 00:16:04.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:16:04.398 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:04.421 [info] > git status -z -uall [15ms]
+2025-06-02 00:16:04.430 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-06-02 00:16:09.457 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:09.457 [info] > git config --get commit.template [9ms]
+2025-06-02 00:16:09.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:16:09.458 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:09.478 [info] > git status -z -uall [13ms]
+2025-06-02 00:16:09.484 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-06-02 00:16:14.512 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:14.513 [info] > git config --get commit.template [9ms]
+2025-06-02 00:16:14.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:16:14.514 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:14.534 [info] > git status -z -uall [14ms]
+2025-06-02 00:16:14.548 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-06-02 00:16:19.577 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:19.577 [info] > git config --get commit.template [9ms]
+2025-06-02 00:16:19.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:16:19.579 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:19.599 [info] > git status -z -uall [14ms]
+2025-06-02 00:16:19.605 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-06-02 00:16:24.627 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:24.635 [info] > git config --get commit.template [8ms]
+2025-06-02 00:16:24.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:16:24.636 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:24.658 [info] > git status -z -uall [16ms]
+2025-06-02 00:16:24.659 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-02 00:16:29.698 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:29.699 [info] > git config --get commit.template [9ms]
+2025-06-02 00:16:29.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:16:29.700 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:29.722 [info] > git status -z -uall [15ms]
+2025-06-02 00:16:29.722 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-02 00:16:34.759 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:34.760 [info] > git config --get commit.template [9ms]
+2025-06-02 00:16:34.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-02 00:16:34.762 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:34.786 [info] > git status -z -uall [15ms]
+2025-06-02 00:16:34.792 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-06-02 00:16:39.823 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:39.824 [info] > git config --get commit.template [9ms]
+2025-06-02 00:16:39.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-02 00:16:39.825 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:39.850 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-02 00:16:39.853 [info] > git status -z -uall [20ms]
+2025-06-02 00:16:45.299 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:45.300 [info] > git config --get commit.template [10ms]
+2025-06-02 00:16:45.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:16:45.301 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:45.322 [info] > git status -z -uall [14ms]
+2025-06-02 00:16:45.322 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-02 00:16:46.684 [info] > git show --textconv :README-cloudshell.txt [10ms]
+2025-06-02 00:16:46.685 [info] > git ls-files --stage -- /home/cowboysrule2727/README-cloudshell.txt [3ms]
+2025-06-02 00:16:50.360 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:50.361 [info] > git config --get commit.template [9ms]
+2025-06-02 00:16:50.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:16:50.363 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:50.384 [info] > git status -z -uall [14ms]
+2025-06-02 00:16:50.389 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-06-02 00:16:55.417 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:16:55.418 [info] > git config --get commit.template [9ms]
+2025-06-02 00:16:55.420 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-02 00:16:55.420 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:16:55.443 [info] > git status -z -uall [16ms]
+2025-06-02 00:16:55.443 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-02 00:17:00.475 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:17:00.483 [info] > git config --get commit.template [9ms]
+2025-06-02 00:17:00.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:17:00.484 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:17:00.504 [info] > git status -z -uall [14ms]
+2025-06-02 00:17:00.505 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-02 00:17:21.874 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:17:21.878 [info] > git config --get commit.template [18ms]
+2025-06-02 00:17:21.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-02 00:17:21.878 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:17:21.910 [info] > git status -z -uall [23ms]
+2025-06-02 00:17:21.911 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-06-02 00:17:22.292 [info] > git show --textconv :main.tf [12ms]
+2025-06-02 00:17:22.295 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/main.tf [6ms]
+2025-06-02 00:17:22.305 [info] > git cat-file -s 46e46de7014fdbbd9fbbcbabf4c97ddb781acb3c [3ms]
+2025-06-02 00:17:26.957 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:17:26.958 [info] > git config --get commit.template [10ms]
+2025-06-02 00:17:26.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:17:26.959 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:17:26.982 [info] > git status -z -uall [16ms]
+2025-06-02 00:17:26.983 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-02 00:17:32.023 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:17:32.024 [info] > git config --get commit.template [9ms]
+2025-06-02 00:17:32.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:17:32.025 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:17:32.046 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-02 00:17:32.047 [info] > git status -z -uall [16ms]
+2025-06-02 00:17:37.079 [info] > git config --get commit.template [9ms]
+2025-06-02 00:17:37.079 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:17:37.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:17:37.080 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:17:37.101 [info] > git status -z -uall [14ms]
+2025-06-02 00:17:37.102 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-02 00:17:42.787 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:17:42.789 [info] > git config --get commit.template [10ms]
+2025-06-02 00:17:42.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-02 00:17:42.790 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:17:42.819 [info] > git status -z -uall [19ms]
+2025-06-02 00:17:42.824 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-06-02 00:17:47.855 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:17:47.856 [info] > git config --get commit.template [9ms]
+2025-06-02 00:17:47.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:17:47.857 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:17:47.879 [info] > git status -z -uall [15ms]
+2025-06-02 00:17:47.880 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-06-02 00:17:52.913 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:17:52.914 [info] > git config --get commit.template [8ms]
+2025-06-02 00:17:52.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:17:52.915 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:17:52.935 [info] > git status -z -uall [14ms]
+2025-06-02 00:17:52.935 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-02 00:17:57.979 [info] > git show --textconv :main.tf [17ms]
+2025-06-02 00:17:57.979 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/main.tf [10ms]
+2025-06-02 00:17:57.994 [info] > git config --get commit.template [17ms]
+2025-06-02 00:17:58.005 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:17:58.006 [info] > git cat-file -s 46e46de7014fdbbd9fbbcbabf4c97ddb781acb3c [16ms]
+2025-06-02 00:17:58.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-02 00:17:58.008 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:17:58.046 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-06-02 00:17:58.050 [info] > git status -z -uall [31ms]
+2025-06-02 00:18:01.851 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:01.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-02 00:18:01.860 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-02 00:18:01.863 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-06-02 00:18:01.882 [info] > git status -z -uall [11ms]
+2025-06-02 00:18:01.885 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-02 00:18:03.093 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:03.094 [info] > git config --get commit.template [10ms]
+2025-06-02 00:18:03.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-02 00:18:03.095 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:03.117 [info] > git status -z -uall [15ms]
+2025-06-02 00:18:03.117 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-02 00:18:06.900 [info] > git config --get commit.template [2ms]
+2025-06-02 00:18:06.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-02 00:18:06.918 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-02 00:18:06.919 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-06-02 00:18:06.937 [info] > git status -z -uall [11ms]
+2025-06-02 00:18:06.939 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-02 00:18:08.150 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:08.151 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:08.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:18:08.153 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:08.173 [info] > git status -z -uall [13ms]
+2025-06-02 00:18:08.173 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-02 00:18:18.529 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:18.530 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:18.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:18:18.531 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:18.555 [info] > git status -z -uall [16ms]
+2025-06-02 00:18:18.560 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-06-02 00:18:23.584 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:23.594 [info] > git config --get commit.template [10ms]
+2025-06-02 00:18:23.594 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-02 00:18:23.595 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:23.616 [info] > git status -z -uall [14ms]
+2025-06-02 00:18:23.616 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-02 00:18:28.654 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:28.655 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:28.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:18:28.656 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:28.676 [info] > git status -z -uall [14ms]
+2025-06-02 00:18:28.682 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-06-02 00:18:31.593 [info] > git show --textconv :.gitignore [9ms]
+2025-06-02 00:18:31.594 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.gitignore [2ms]
+2025-06-02 00:18:31.603 [info] > git cat-file -s 0b27bc05eb2c95c5b3352174b35e6c5f875dda02 [2ms]
+2025-06-02 00:18:31.941 [info] > git check-ignore -v -z --stdin [10ms]
+2025-06-02 00:18:31.942 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-02 00:18:32.363 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:32.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-02 00:18:32.371 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-02 00:18:32.373 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-02 00:18:32.390 [info] > git status -z -uall [11ms]
+2025-06-02 00:18:32.392 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-02 00:18:33.708 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:33.709 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:33.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:18:33.710 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:33.731 [info] > git status -z -uall [14ms]
+2025-06-02 00:18:33.739 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-06-02 00:18:35.268 [info] > git check-ignore -v -z --stdin [11ms]
+2025-06-02 00:18:35.269 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-02 00:18:37.412 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:37.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-02 00:18:37.420 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-02 00:18:37.423 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-02 00:18:37.441 [info] > git status -z -uall [10ms]
+2025-06-02 00:18:37.443 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-02 00:18:38.780 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:38.782 [info] > git config --get commit.template [12ms]
+2025-06-02 00:18:38.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-02 00:18:38.784 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:38.812 [info] > git status -z -uall [19ms]
+2025-06-02 00:18:38.813 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-02 00:18:43.846 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:43.847 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:43.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:18:43.848 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:43.871 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-02 00:18:43.872 [info] > git status -z -uall [16ms]
+2025-06-02 00:18:48.904 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:48.905 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:48.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-02 00:18:48.906 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:48.927 [info] > git status -z -uall [14ms]
+2025-06-02 00:18:48.927 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-02 00:18:49.223 [info] > git check-ignore -v -z --stdin [13ms]
+2025-06-02 00:18:49.223 [info] > git check-ignore -v -z --stdin [5ms]
+2025-06-02 00:18:49.532 [info] > git show --textconv :main.tf [8ms]
+2025-06-02 00:18:49.534 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/main.tf [3ms]
+2025-06-02 00:18:49.543 [info] > git cat-file -s 46e46de7014fdbbd9fbbcbabf4c97ddb781acb3c [2ms]
+2025-06-02 00:18:49.609 [info] > git config --get commit.template [23ms]
+2025-06-02 00:18:49.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-06-02 00:18:49.629 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/.git/refs/remotes/origin/main'
+2025-06-02 00:18:49.632 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-06-02 00:18:49.665 [info] > git status -z -uall [22ms]
+2025-06-02 00:18:49.668 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-06-02 00:18:51.233 [info] > git show --textconv :LICENSE [10ms]
+2025-06-02 00:18:51.235 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/LICENSE [3ms]
+2025-06-02 00:18:51.246 [info] > git cat-file -s d645695673349e3947e8e5ae42332d0ac3164cd7 [2ms]
+2025-06-02 00:18:51.513 [info] > git show --textconv :main.tf [11ms]
+2025-06-02 00:18:51.515 [info] > git ls-files --stage -- /home/cowboysrule2727/cloudshell_open/terraform-google-three-tier-web-app/main.tf [4ms]
+2025-06-02 00:18:51.524 [info] > git cat-file -s 46e46de7014fdbbd9fbbcbabf4c97ddb781acb3c [3ms]
+2025-06-02 00:18:53.963 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:53.964 [info] > git config --get commit.template [9ms]
+2025-06-02 00:18:53.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-02 00:18:53.966 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:53.987 [info] > git status -z -uall [14ms]
+2025-06-02 00:18:53.987 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-02 00:18:59.029 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:18:59.030 [info] > git config --get commit.template [12ms]
+2025-06-02 00:18:59.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-02 00:18:59.033 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:18:59.068 [info] > git status -z -uall [24ms]
+2025-06-02 00:18:59.076 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-06-02 00:19:04.120 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-02 00:19:04.121 [info] > git config --get commit.template [12ms]
+2025-06-02 00:19:04.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-02 00:19:04.124 [warning] [Git][getBranch] No such branch: master
+2025-06-02 00:19:04.158 [info] > git status -z -uall [23ms]
+2025-06-02 00:19:04.172 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]

@@ -1,0 +1,37 @@
+2025-06-01 23:04:07.874 [info] 
+
+
+
+
+2025-06-01 23:04:07.895 [info] Extension host agent started.
+2025-06-01 23:04:07.919 [info] Started initializing default profile extensions in extensions installation folder. file:///home/cowboysrule2727/.codeoss/extensions
+2025-06-01 23:04:07.937 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/cowboysrule2727/.codeoss/extensions
+2025-06-01 23:04:09.693 [info] [127.0.0.1][1e4843c8][ManagementConnection] New connection established.
+2025-06-01 23:04:09.710 [info] [127.0.0.1][bd90810b][ExtensionHostConnection] New connection established.
+2025-06-01 23:04:13.762 [info] [127.0.0.1][bd90810b][ExtensionHostConnection] <1263> Launched Extension Host Process.
+2025-06-01 23:29:12.030 [info] Getting Manifest... muhammad-sammy.csharp
+2025-06-01 23:29:13.185 [info] Installing extension: muhammad-sammy.csharp {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/cowboysrule2727/.codeoss/extensions/extensions.json","external":"file:///home/cowboysrule2727/.codeoss/extensions/extensions.json","path":"/home/cowboysrule2727/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2-cde","date":"2025-05-18T07:11:45.610Z"}}
+2025-06-01 23:29:13.450 [info] Getting Manifest... ms-dotnettools.vscode-dotnet-runtime
+2025-06-01 23:29:13.659 [info] Installing extension: ms-dotnettools.vscode-dotnet-runtime {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/cowboysrule2727/.codeoss/extensions/extensions.json","external":"file:///home/cowboysrule2727/.codeoss/extensions/extensions.json","path":"/home/cowboysrule2727/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2-cde","date":"2025-05-18T07:11:45.610Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-06-01 23:29:14.947 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js
+2025-06-01 23:29:14.947 [info] Extension signature verification is not done: ms-dotnettools.vscode-dotnet-runtime
+2025-06-01 23:29:15.139 [info] Extracted extension to file:///home/cowboysrule2727/.codeoss/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.2-universal: ms-dotnettools.vscode-dotnet-runtime
+2025-06-01 23:29:15.148 [info] Renamed to /home/cowboysrule2727/.codeoss/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.2-universal
+2025-06-01 23:29:27.354 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js
+2025-06-01 23:29:27.355 [info] Extension signature verification is not done: muhammad-sammy.csharp
+2025-06-01 23:29:33.647 [info] Extracted extension to file:///home/cowboysrule2727/.codeoss/extensions/muhammad-sammy.csharp-2.72.27-universal: muhammad-sammy.csharp
+2025-06-01 23:29:33.703 [info] Renamed to /home/cowboysrule2727/.codeoss/extensions/muhammad-sammy.csharp-2.72.27-universal
+2025-06-01 23:29:33.753 [info] Extension installed successfully: ms-dotnettools.vscode-dotnet-runtime file:///home/cowboysrule2727/.codeoss/extensions/extensions.json
+2025-06-01 23:29:33.753 [info] Extension installed successfully: muhammad-sammy.csharp file:///home/cowboysrule2727/.codeoss/extensions/extensions.json
+2025-06-01 23:53:25.588 [info] [127.0.0.1][1e4843c8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-01 23:53:30.276 [info] [127.0.0.1][62305213][ManagementConnection] New connection established.
+2025-06-01 23:53:30.310 [info] [127.0.0.1][d5cd4d6b][ExtensionHostConnection] New connection established.
+2025-06-01 23:53:30.317 [info] [127.0.0.1][d5cd4d6b][ExtensionHostConnection] <1816> Launched Extension Host Process.
+2025-06-01 23:58:30.721 [info] [127.0.0.1][bd90810b][ExtensionHostConnection] <1263> Extension Host Process exited with code: 0, signal: null.
+2025-06-02 00:03:39.686 [info] Getting Manifest... hashicorp.terraform
+2025-06-02 00:03:40.276 [info] Installing extension: hashicorp.terraform {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/cowboysrule2727/.codeoss/extensions/extensions.json","external":"file:///home/cowboysrule2727/.codeoss/extensions/extensions.json","path":"/home/cowboysrule2727/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2-cde","date":"2025-05-18T07:11:45.610Z"}}
+2025-06-02 00:03:44.785 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js
+2025-06-02 00:03:44.785 [info] Extension signature verification is not done: hashicorp.terraform
+2025-06-02 00:03:45.526 [info] Extracted extension to file:///home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64: hashicorp.terraform
+2025-06-02 00:03:45.537 [info] Renamed to /home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64
+2025-06-02 00:03:45.585 [info] Extension installed successfully: hashicorp.terraform file:///home/cowboysrule2727/.codeoss/extensions/extensions.json

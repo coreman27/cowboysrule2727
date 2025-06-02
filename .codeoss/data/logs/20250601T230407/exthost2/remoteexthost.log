@@ -1,0 +1,273 @@
+2025-06-01 23:53:32.164 [info] Extension host with pid 1816 started
+2025-06-01 23:53:32.164 [error] Error: EEXIST: file already exists, open '/home/cowboysrule2727/.codeoss/data/User/workspaceStorage/-4ab9afe0/vscode.lock'
+2025-06-01 23:53:32.281 [info] Lock '/home/cowboysrule2727/.codeoss/data/User/workspaceStorage/-4ab9afe0/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-01 23:53:32.305 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-06-01 23:53:32.309 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-01 23:53:33.863 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-01 23:53:33.904 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-01 23:53:33.907 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-01 23:53:33.908 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-01 23:53:34.212 [info] Lock '/home/cowboysrule2727/.codeoss/data/User/workspaceStorage/-4ab9afe0/vscode.lock': The lock does not look stale, elapsed: 927 ms, giving up.
+2025-06-01 23:53:34.269 [info] Lock '/home/cowboysrule2727/.codeoss/data/User/workspaceStorage/-4ab9afe0-1/vscode.lock': Lock acquired.
+2025-06-01 23:53:34.373 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-01 23:53:34.373 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-01 23:53:34.642 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-06-01 23:53:34.734 [info] Eager extensions activated
+2025-06-01 23:53:34.734 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 23:53:34.735 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 23:53:34.736 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 23:53:34.737 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 23:53:35.143 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-01 23:54:00.217 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-01 23:59:55.569 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-06-01 23:59:55.569 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-06-01 23:59:56.390 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-06-02 00:03:45.821 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+2025-06-02 00:03:51.393 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:03:51.393 [error] Error: variables.tf: position 1,1 is out of range variables.tf:15,4-71,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:03:51.815 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:03:51.815 [error] Error: variables.tf: position 1,1 is out of range variables.tf:15,4-71,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:03:54.289 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:03:54.290 [error] Error: no reference origin found
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:03:57.679 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:03:57.680 [error] Error: no reference origin found
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:04:34.374 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:04:34.374 [error] Error: variables.tf: position 11,23 is out of range variables.tf:15,4-71,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:04:40.833 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:04:40.833 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:04:40.852 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:04:40.852 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:07:06.837 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:07:06.837 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:07:07.542 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:07:07.543 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:10:58.520 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:10:58.523 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:10:58.693 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:10:58.693 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:11:53.372 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:4,$model28)
+2025-06-02 00:11:53.390 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:11:53.390 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:11:53.606 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:11:53.607 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:15:11.170 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:15:11.170 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:15:11.437 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:15:11.437 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:15:51.433 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1559
+2025-06-02 00:15:52.309 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1559
+2025-06-02 00:15:54.312 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1559
+2025-06-02 00:15:59.376 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1559
+2025-06-02 00:16:04.437 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1559
+2025-06-02 00:16:09.493 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1559
+2025-06-02 00:16:14.558 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1559
+2025-06-02 00:16:19.614 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1559
+2025-06-02 00:16:24.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1559
+2025-06-02 00:16:29.736 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:16:34.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:16:39.867 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:16:45.341 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:16:50.397 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:16:55.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:00.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:21.911 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:17:21.911 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:17:21.935 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:22.262 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:17:22.262 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:17:26.999 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:32.060 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:37.114 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:42.834 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:43.340 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:17:43.340 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:17:43.460 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:17:43.460 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:17:47.895 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:52.948 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:57.767 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:4,$model38)
+2025-06-02 00:17:57.777 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:17:57.778 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:17:58.045 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:17:58.045 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:17:58.071 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1560
+2025-06-02 00:17:59.922 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:17:59.922 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-295,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:18:00.629 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:18:00.630 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-295,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:18:02.207 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:18:02.208 [error] Error: no reference origin found
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:18:02.696 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:18:02.696 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:18:03.132 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1561
+2025-06-02 00:18:03.432 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:18:03.433 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:18:08.188 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1562
+2025-06-02 00:18:18.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1562
+2025-06-02 00:18:23.635 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1562
+2025-06-02 00:18:28.690 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1562
+2025-06-02 00:18:33.753 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1564
+2025-06-02 00:18:38.826 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1565
+2025-06-02 00:18:43.885 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1565
+2025-06-02 00:18:48.942 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1566
+2025-06-02 00:18:49.303 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:18:49.304 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:18:49.607 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:18:49.607 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:18:51.297 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:18:51.297 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:18:51.577 [error] [hashicorp.terraform] provider FAILED
+2025-06-02 00:18:51.577 [error] Error: main.tf: position 1,1 is out of range main.tf:15,4-290,1
+    at an (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:25:241)
+    at ht (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6288)
+    at qr (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6418)
+    at Immediate.<anonymous> (/home/cowboysrule2727/.codeoss/extensions/hashicorp.terraform-2.34.4-linux-x64/dist/extension.js:24:6169)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-02 00:18:54.001 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1566
+2025-06-02 00:18:59.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1566
+2025-06-02 00:19:04.185 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1566
